@@ -1,0 +1,17 @@
+terraform-aws-webapp/
+│── modules/
+│   ├── vpc/
+│   ├── ec2/
+│   ├── rds/
+│   ├── alb/
+│   ├── s3/
+│── environments/
+│   ├── dev/
+│   ├── prod/
+│── .github/workflows/
+│   ├── terraform-ci.yaml
+│── main.tf
+│── variables.tf
+│── outputs.tf
+│── provider.tf
+│── README.md
